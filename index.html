@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/SFProDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<!-- <link rel="shortcut icon" href="@img/favicon.ico"> -->
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/index.js?v=1786616266632"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/main.js?v=1786616266632">
+		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1786616266632">
+		<link rel="stylesheet" crossorigin="" href="./css/index.css?v=1786616266632">
+		<link rel="stylesheet" crossorigin="" href="./css/differencecard.css?v=1786616266632">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="400" class="header">
+				<div class="header__top top-header">
+					<div class="top-header__container">
+						<div class="top-header__left">
+							<ul data-fls-sociallist="" class="top-header__social social-list">
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-facebook" aria-label="facebook"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-x" aria-label="social X"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-linkedin" aria-label="linkedIn"></a>
+								</li>
+							</ul>
+							<div data-fls-contactitem="" class="contact-item">
+								<a href="mailto:info@turbineservices.expert" class="contact-item__link">
+									<span class="--icon-email"></span>
+									info@turbineservices.expert
+								</a>
+							</div>
+						</div>
+						<div class="top-header__column">
+							<div data-fls-contactitem="" class="top-header__phone contact-item">
+								<a href="tel:+3545395258" class="contact-item__link">
+									<span class="--icon-phone"></span>
+									+354 539 5258
+								</a>
+							</div>
+							<form data-fls-searchheader="" action="#" class="top-header__search search-header">
+								<button type="button" class="search-header__open" aria-label="Open search">
+									<span class="--icon-search" aria-hidden="true"></span>
+									<span class="--icon-close" aria-hidden="true"></span>
+								</button>
+								<div class="search-header__body">
+									<input minlength="3" required autocomplete="off" type="text" name="form[data]" data-error="Ошибка" placeholder="Поиск" class="search-header__input input">
+									<button class="search-header__button --icon-search" type="submit"></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="header__main main-header">
+					<div class="main-header__container">
+						<img data-fls-image-ignore="" src="./assets/img/logo_turbine.png" alt="Логотип">
+						<div class="main-header__menu menu">
+							<!-- <button type="button" data-fls-menu class="menu__icon icon-menu"><span></span></button> -->
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="index.html" class="menu__link menu__link--active">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="services.html" class="menu__link">Services</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">About</a>
+									</li>
+									<li class="menu__item">
+										<a href="products.html" class="menu__link">Products</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Careers</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Contact</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Blogs</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<button data-fls-button="" class="main-header__button button">Get A Quote</button>
+						<button type="button" data-fls-menu="" class="main-header__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-index="" class="index">
+					<section class="index__hero hero-section">
+						<div class="hero-section__container">
+							<div class="hero-section__content">
+								<h1 data-fls-title="" class="hero-section__title title title--big">Hard To Find Gas Turbines Spare Parts & Services</h1>
+								<div class="hero-section__search">
+									<form data-fls-form="ajax" data-fls-searchelement="" data-fls-form-popup="popup" action="files/sendmail/sendmail.php" method="POST" class="search-element">
+										<input data-fls-input="" type="text" name="form[email]" data-error="Error" placeholder="What Parts Are You Looking For?" autocomplete="off" class="search-element__input input">
+										<button type="button" class="search-element__clear" aria-label="Clear">
+											<span class="--icon-close"></span>
+										</button>
+										<button type="submit" class="search-element__search button button--hover-dark" aria-label="Search">
+											<span class="--icon-search"></span>
+										</button>
+									</form>
+								</div>
+								<div class="hero-section__text">Genuine, Obsolete, Discontinued</div>
+							</div>
+						</div>
+						<div class="hero-section__image">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/hero-image-600.webp 1x,./assets/img/hero-image-600-2x.webp 2x,./assets/img/hero-image-600-3x.webp 3x" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/hero-image-1200.webp 1x,./assets/img/hero-image-1200-2x.webp 2x,./assets/img/hero-image-1200-3x.webp 3x" type="image/webp">
+								<img alt="Hero image" src="./assets/img/hero-image.webp" srcset="./assets/img/hero-image.webp 1x,./assets/img/hero-image-2x.webp 2x,./assets/img/hero-image-3x.webp 3x">
+							</picture>
+						</div>
+					</section>
+					<section class="index__welcome welcome-section">
+						<div class="welcome-section__container">
+							<div class="welcome-section__content">
+								<div data-fls-blockhead="" class="welcome-section__block-head block-head">
+									<span class="block-head__lable --icon-m-telegram">SINCE 2007</span>
+									<h2 data-fls-title="" class="block-head__title title">
+										<span class="title__top">
+											Welcome to
+											<span>Our company</span>
+										</span>
+									</h2>
+								</div>
+								<div class="welcome-section__text">
+									<p>
+										TurbineServices.Experts, Inc. was founded and is run by a combination of well experienced and knowledgeable former GE and non-GE personnel with over 70 years of combined experience in the gas turbines field. We have taken great pride in providing our clients the highest quality parts, the technical knowhow and services to ensure that their gas turbines run and operate reliably and efficiently.
+									</p>
+									<p>
+										Since our incorporation in 2007, we have successfully provided our clients a one stop solution to all of their GE™ industrial gas turbine needs. We have had the pleasure of working with a wide variety of clients all over the world in both the public and private sectors. These customers include electric utilities, service centers, oil & gas companies, original equipment manufacturers such as Thomassen, Alsthom and many more.
+            We are delighted that you have taken the time to visit our web site. We look forward to supporting your current and future spare parts and services' requirements.
+									</p>
+								</div>
+							</div>
+							<div class="welcome-section__column">
+								<div class="welcome-section__image">
+									<picture>
+										<img alt="Image men" src="./assets/img/welcome-image.webp" srcset="./assets/img/welcome-image.webp 1x,./assets/img/welcome-image-2x.webp 2x,./assets/img/welcome-image-3x.webp 3x">
+									</picture>
+								</div>
+								<div data-fls-numercard="" class="welcome-section__numer numer-card">
+									<div class="numer-card__inner">
+										<span class="numer-card__value">5 M +</span>
+										<p class="numer-card__lable">Quality Parts</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="index__difference difference-section">
+						<div class="difference-section__container">
+							<h2 data-fls-title="" class="difference-section__title title">
+								<span class="title__top">
+									The
+									<span>Joy Difference</span>
+								</span>
+								<span class="title__decor"></span>
+							</h2>
+							<div class="difference-section__elements">
+								<article data-fls-differencecard="" class="difference-section__element difference-card">
+									<div class="difference-card__body">
+										<span class="difference-card__icon --icon-minimize"></span>
+										<h3 class="difference-card__title">Minimize ground time</h3>
+										<div class="difference-card__text">
+											<p>
+												Rapid dispatch and global logistics network to get your aircraft back inservice faster.
+											</p>
+										</div>
+									</div>
+								</article>
+								<article data-fls-differencecard="" class="difference-section__element difference-card">
+									<div class="difference-card__body">
+										<span class="difference-card__icon --icon-parts"></span>
+										<h3 class="difference-card__title">Get the parts you need</h3>
+										<div class="difference-card__text">
+											<p>Inventory of over Availability 5,000,000+ parts worldwide.</p>
+										</div>
+										<a href="#" data-fls-button="" class="difference-card__button button button--more">Read More</a>
+									</div>
+								</article>
+								<article data-fls-differencecard="" class="difference-section__element difference-card">
+									<div class="difference-card__body">
+										<span class="difference-card__icon --icon-profit"></span>
+										<h3 class="difference-card__title">Profit from overstock</h3>
+										<div class="difference-card__text">
+											<p>Liquidation and consignment programst o help you optimize your inventory value.</p>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</section>
+					<section class="index__serve serve-section">
+						<div class="serve-section__container">
+							<div class="serve-section__content">
+								<div data-fls-blockhead="" class="serve-section__block-head block-head">
+									<span class="block-head__lable --icon-m-telegram">SINCE 2007</span>
+									<h2 data-fls-title="" class="block-head__title title">
+										<span class="title__top">
+											Welcome to
+											<span>Our company</span>
+										</span>
+									</h2>
+								</div>
+								<article data-fls-blockserve="" class="serve-section__block-serve block-serve">
+									<div class="block-serve__inner">
+										<h3 class="block-serve__subtitle">We partner with gas turbine operators in the following clients:</h3>
+										<div class="block-serve__columns">
+											<ul class="block-serve__list">
+												<li class="block-serve__item --icon-m-telegram">ALSTOM POWER</li>
+												<li class="block-serve__item --icon-m-telegram">ANSALDO THOMASSEN</li>
+												<li class="block-serve__item --icon-m-telegram">ATLANTIC PROJECTS COMPANY</li>
+												<li class="block-serve__item --icon-m-telegram">DUKE ENERGY</li>
+												<li class="block-serve__item --icon-m-telegram">EAST DELTA ELECTRIC</li>
+											</ul>
+											<ul class="block-serve__list">
+												<li class="block-serve__item --icon-m-telegram">ESSAR POWER</li>
+												<li class="block-serve__item --icon-m-telegram">GDF SUEZ</li>
+												<li class="block-serve__item --icon-m-telegram">TURBO CARE</li>
+												<li class="block-serve__item --icon-m-telegram">WAHA OIL COMPANY</li>
+											</ul>
+										</div>
+									</div>
+								</article>
+								<article data-fls-blockserve="" class="serve-section__block-serve block-serve block-serve--bg">
+									<div class="block-serve__inner">
+										<h3 class="block-serve__subtitle">We also partner with</h3>
+										<div class="block-serve__columns">
+											<ul class="block-serve__list">
+												<li class="block-serve__item --icon-m-telegram">FLORIDA POWER & LIGHT COMPANY</li>
+												<li class="block-serve__item --icon-m-telegram">IRAQ MINISTRY OF ELECTRICITY (MOE)</li>
+												<li class="block-serve__item --icon-m-telegram">TENNESSEE VALLEY AUTHORITY (TVA)</li>
+											</ul>
+										</div>
+									</div>
+								</article>
+								<button data-fls-button="" class="serve-section__button button button--hover-dark">View Our Services</button>
+							</div>
+							<div class="serve-section__image">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/serve-image-600.webp 1x,./assets/img/serve-image-600-2x.webp 2x,./assets/img/serve-image-600-3x.webp 3x" type="image/webp">
+									<img alt="Image" src="./assets/img/serve-image.webp" srcset="./assets/img/serve-image.webp 1x,./assets/img/serve-image-2x.webp 2x,./assets/img/serve-image-3x.webp 3x">
+								</picture>
+							</div>
+						</div>
+					</section>
+					<div class="index__facts facts">
+						<div class="facts__container">
+							<dl class="facts__list">
+								<div class="facts__item">
+									<dt class="facts__title">FORMED IN</dt>
+									<dd class="facts__value">2007</dd>
+								</div>
+								<div class="facts__item">
+									<dt class="facts__title">LOCATED IN</dt>
+									<dd class="facts__value">Iceland</dd>
+								</div>
+								<div class="facts__item">
+									<dt class="facts__title">DUNS</dt>
+									<dd class="facts__value">968386917</dd>
+								</div>
+								<div class="facts__item">
+									<dt class="facts__title">NAICS</dt>
+									<dd class="facts__value">Code</dd>
+								</div>
+							</dl>
+						</div>
+					</div>
+					<section class="index__stock stock-section">
+						<div class="stock-section__container">
+							<div data-fls-blockhead="" class="stock-section__block-head block-head">
+								<span class="block-head__lable --icon-m-telegram">INVENTORY</span>
+								<h2 data-fls-title="" class="block-head__title title">
+									<span class="title__top">
+										Products We
+										<span>Stock</span>
+									</span>
+								</h2>
+							</div>
+							<div class="stock-section__text">
+								<p>
+									With over 25,000 square feet of warehouse space, our facility easily holds over 100,000 different parts of the highest quality. We also offer parts pooling agreements, where we’ll purchase and stock the right parts for you in advance, so that when you do need them, we have them ready for action.
+								</p>
+							</div>
+							<ul class="stock-section__elements">
+								<li class="stock-section__element">
+									<a href="#" data-fls-stockcard="" class="stock-section__card stock-card">
+										<div class="stock-card__body">
+											<span class="stock-card__icon --icon-accessories"></span>
+											<h3 class="stock-card__lable">Accessories</h3>
+										</div>
+									</a>
+								</li>
+								<li class="stock-section__element">
+									<a href="#" data-fls-stockcard="" class="stock-section__card stock-card">
+										<div class="stock-card__body">
+											<span class="stock-card__icon --icon-accessories"></span>
+											<h3 class="stock-card__lable">Accessories</h3>
+										</div>
+									</a>
+								</li>
+								<li class="stock-section__element">
+									<a href="#" data-fls-stockcard="" class="stock-section__card stock-card">
+										<div class="stock-card__body">
+											<span class="stock-card__icon --icon-accessories"></span>
+											<h3 class="stock-card__lable">Accessories</h3>
+										</div>
+									</a>
+								</li>
+								<li class="stock-section__element">
+									<a href="#" data-fls-stockcard="" class="stock-section__card stock-card">
+										<div class="stock-card__body">
+											<span class="stock-card__icon --icon-accessories"></span>
+											<h3 class="stock-card__lable">Accessories</h3>
+										</div>
+									</a>
+								</li>
+								<li class="stock-section__element">
+									<a href="#" data-fls-stockcard="" class="stock-section__card stock-card">
+										<div class="stock-card__body">
+											<span class="stock-card__icon --icon-accessories"></span>
+											<h3 class="stock-card__lable">Accessories</h3>
+										</div>
+									</a>
+								</li>
+								<li class="stock-section__element">
+									<a href="#" data-fls-stockcard="" class="stock-section__card stock-card">
+										<div class="stock-card__body">
+											<span class="stock-card__icon --icon-accessories"></span>
+											<h3 class="stock-card__lable">Accessories</h3>
+										</div>
+									</a>
+								</li>
+								<li class="stock-section__element">
+									<a href="#" data-fls-stockcard="" class="stock-section__card stock-card">
+										<div class="stock-card__body">
+											<span class="stock-card__icon --icon-accessories"></span>
+											<h3 class="stock-card__lable">Accessories</h3>
+										</div>
+									</a>
+								</li>
+								<li class="stock-section__element">
+									<a href="#" data-fls-stockcard="" class="stock-section__card stock-card">
+										<div class="stock-card__body">
+											<span class="stock-card__icon --icon-accessories"></span>
+											<h3 class="stock-card__lable">Accessories</h3>
+										</div>
+									</a>
+								</li>
+								<li class="stock-section__element">
+									<a href="#" data-fls-stockcard="" class="stock-section__card stock-card">
+										<div class="stock-card__body">
+											<span class="stock-card__icon --icon-accessories"></span>
+											<h3 class="stock-card__lable">Accessories</h3>
+										</div>
+									</a>
+								</li>
+								<li class="stock-section__element">
+									<a href="#" data-fls-stockcard="" class="stock-section__card stock-card">
+										<div class="stock-card__body">
+											<span class="stock-card__icon --icon-brake"></span>
+											<h3 class="stock-card__lable">Wheel & Brake Assemblies</h3>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<div class="index__reviews reviews">
+						<div class="reviews__container">
+							<div class="reviews__header">
+								<div class="reviews__summary">
+									<div class="reviews__logo">
+										<img data-fls-image-ignore="" src="./assets/img/Google.png" alt="Google">
+									</div>
+									<div class="reviews__info">
+										<h2 class="reviews__title">Excellent on Google</h2>
+										<div class="reviews__meta">
+											<span class="reviews__score">4.9</span>
+											<div data-fls-rating="set" data-fls-rating-value="5" class="rating"></div>
+											<span class="reviews__count">(67)</span>
+										</div>
+									</div>
+								</div>
+								<button data-fls-button="" class="button button--review">Review us on Google</button>
+							</div>
+							<div class="reviews__main">
+								<!-- Оболонка слайдера -->
+								<div data-fls-slider="" class="reviews__slider swiper">
+									<!-- Частина слайдера, що рухається -->
+									<div class="reviews__wrapper swiper-wrapper">
+										<!-- Слайд 1 -->
+										<article data-fls-reviewitem="" class="reviews__slide review-item swiper-slide">
+											<div class="review-item__inner">
+												<div class="review-item__user">
+													<div class="review-item__avatar">
+														<picture>
+															<img alt="Avatar of Hershy Jankovits" src="./assets/img/avatar.webp" srcset="./assets/img/avatar.webp 1x,./assets/img/avatar-2x.webp 2x,./assets/img/avatar-3x.webp 3x">
+														</picture>
+													</div>
+													<div class="review-item__column">
+														<h3 class="review-item__name">
+															hershy jankovits
+															<span class="review-item__check --icon-check" aria-hidden="true"></span>
+														</h3>
+														<div class="review-item__date">
+															20 days ago on
+															<img src="./assets/img/image%20google.png" alt="" aria-hidden="true">
+														</div>
+													</div>
+												</div>
+												<div data-fls-rating="set" data-fls-rating-value="5" class="review-item__rating rating"></div>
+												<div data-fls-showmore="size" class="review-item__block block">
+													<div data-fls-showmore-content="87" class="block__content">
+														<p>
+															Great experience working with Joy Aviation Supply. Their team was professional, responsive, and very knowledgeable about aviation parts and sourcing. They helped us find exactly what we needed quickly and kept communication clear throughout the process. Fast service, reliable support, and a smooth overall experience. Highly recommend for anyone looking for dependable aviation supply solutions.
+														</p>
+													</div>
+													<button hidden data-fls-showmore-button="" type="button" class="block__more">
+														<span>Read more</span>
+														<span>Hide</span>
+													</button>
+												</div>
+											</div>
+										</article>
+										<!-- Слайд 2 -->
+										<article data-fls-reviewitem="" class="reviews__slide review-item swiper-slide">
+											<div class="review-item__inner">
+												<div class="review-item__user">
+													<div class="review-item__avatar">
+														<picture>
+															<img alt="Avatar of Hershy Jankovits" src="./assets/img/avatar.webp" srcset="./assets/img/avatar.webp 1x,./assets/img/avatar-2x.webp 2x,./assets/img/avatar-3x.webp 3x">
+														</picture>
+													</div>
+													<div class="review-item__column">
+														<h3 class="review-item__name">
+															hershy jankovits
+															<span class="review-item__check --icon-check" aria-hidden="true"></span>
+														</h3>
+														<div class="review-item__date">
+															20 days ago on
+															<img src="./assets/img/image%20google.png" alt="" aria-hidden="true">
+														</div>
+													</div>
+												</div>
+												<div data-fls-rating="set" data-fls-rating-value="5" class="review-item__rating rating"></div>
+												<div data-fls-showmore="size" class="review-item__block block">
+													<div data-fls-showmore-content="87" class="block__content">
+														<p>
+															Great experience working with Joy Aviation Supply. Their team was professional, responsive, and very knowledgeable about aviation parts and sourcing. They helped us find exactly what we needed quickly and kept communication clear throughout the process. Fast service, reliable support, and a smooth overall experience. Highly recommend for anyone looking for dependable aviation supply solutions.
+														</p>
+													</div>
+													<button hidden data-fls-showmore-button="" type="button" class="block__more">
+														<span>Read more</span>
+														<span>Hide</span>
+													</button>
+												</div>
+											</div>
+										</article>
+										<!-- Слайд 3 -->
+										<article data-fls-reviewitem="" class="reviews__slide review-item swiper-slide">
+											<div class="review-item__inner">
+												<div class="review-item__user">
+													<div class="review-item__avatar">
+														<picture>
+															<img alt="Avatar of Hershy Jankovits" src="./assets/img/avatar.webp" srcset="./assets/img/avatar.webp 1x,./assets/img/avatar-2x.webp 2x,./assets/img/avatar-3x.webp 3x">
+														</picture>
+													</div>
+													<div class="review-item__column">
+														<h3 class="review-item__name">
+															hershy jankovits
+															<span class="review-item__check --icon-check" aria-hidden="true"></span>
+														</h3>
+														<div class="review-item__date">
+															20 days ago on
+															<img src="./assets/img/image%20google.png" alt="" aria-hidden="true">
+														</div>
+													</div>
+												</div>
+												<div data-fls-rating="set" data-fls-rating-value="5" class="review-item__rating rating"></div>
+												<div data-fls-showmore="size" class="review-item__block block">
+													<div data-fls-showmore-content="87" class="block__content">
+														<p>
+															Great experience working with Joy Aviation Supply. Their team was professional, responsive, and very knowledgeable about aviation parts and sourcing. They helped us find exactly what we needed quickly and kept communication clear throughout the process. Fast service, reliable support, and a smooth overall experience. Highly recommend for anyone looking for dependable aviation supply solutions.
+														</p>
+													</div>
+													<button hidden data-fls-showmore-button="" type="button" class="block__more">
+														<span>Read more</span>
+														<span>Hide</span>
+													</button>
+												</div>
+											</div>
+										</article>
+										<!-- Слайд 4 -->
+										<article data-fls-reviewitem="" class="reviews__slide review-item swiper-slide">
+											<div class="review-item__inner">
+												<div class="review-item__user">
+													<div class="review-item__avatar">
+														<picture>
+															<img alt="Avatar of Hershy Jankovits" src="./assets/img/avatar.webp" srcset="./assets/img/avatar.webp 1x,./assets/img/avatar-2x.webp 2x,./assets/img/avatar-3x.webp 3x">
+														</picture>
+													</div>
+													<div class="review-item__column">
+														<h3 class="review-item__name">
+															hershy jankovits
+															<span class="review-item__check --icon-check" aria-hidden="true"></span>
+														</h3>
+														<div class="review-item__date">
+															20 days ago on
+															<img src="./assets/img/image%20google.png" alt="" aria-hidden="true">
+														</div>
+													</div>
+												</div>
+												<div data-fls-rating="set" data-fls-rating-value="5" class="review-item__rating rating"></div>
+												<div data-fls-showmore="size" class="review-item__block block">
+													<div data-fls-showmore-content="87" class="block__content">
+														<p>
+															Great experience working with Joy Aviation Supply. Their team was professional, responsive, and very knowledgeable about aviation parts and sourcing. They helped us find exactly what we needed quickly and kept communication clear throughout the process. Fast service, reliable support, and a smooth overall experience. Highly recommend for anyone looking for dependable aviation supply solutions.
+														</p>
+													</div>
+													<button hidden data-fls-showmore-button="" type="button" class="block__more">
+														<span>Read more</span>
+														<span>Hide</span>
+													</button>
+												</div>
+											</div>
+										</article>
+										<!-- Слайд 3 -->
+										<article data-fls-reviewitem="" class="reviews__slide review-item swiper-slide">
+											<div class="review-item__inner">
+												<div class="review-item__user">
+													<div class="review-item__avatar">
+														<picture>
+															<img alt="Avatar of Hershy Jankovits" src="./assets/img/avatar.webp" srcset="./assets/img/avatar.webp 1x,./assets/img/avatar-2x.webp 2x,./assets/img/avatar-3x.webp 3x">
+														</picture>
+													</div>
+													<div class="review-item__column">
+														<h3 class="review-item__name">
+															hershy jankovits
+															<span class="review-item__check --icon-check" aria-hidden="true"></span>
+														</h3>
+														<div class="review-item__date">
+															20 days ago on
+															<img src="./assets/img/image%20google.png" alt="" aria-hidden="true">
+														</div>
+													</div>
+												</div>
+												<div data-fls-rating="set" data-fls-rating-value="5" class="review-item__rating rating"></div>
+												<div data-fls-showmore="size" class="review-item__block block">
+													<div data-fls-showmore-content="87" class="block__content">
+														<p>
+															Great experience working with Joy Aviation Supply. Their team was professional, responsive, and very knowledgeable about aviation parts and sourcing. They helped us find exactly what we needed quickly and kept communication clear throughout the process. Fast service, reliable support, and a smooth overall experience. Highly recommend for anyone looking for dependable aviation supply solutions.
+														</p>
+													</div>
+													<button hidden data-fls-showmore-button="" type="button" class="block__more">
+														<span>Read more</span>
+														<span>Hide</span>
+													</button>
+												</div>
+											</div>
+										</article>
+										<!-- Слайд 4 -->
+										<article data-fls-reviewitem="" class="reviews__slide review-item swiper-slide">
+											<div class="review-item__inner">
+												<div class="review-item__user">
+													<div class="review-item__avatar">
+														<picture>
+															<img alt="Avatar of Hershy Jankovits" src="./assets/img/avatar.webp" srcset="./assets/img/avatar.webp 1x,./assets/img/avatar-2x.webp 2x,./assets/img/avatar-3x.webp 3x">
+														</picture>
+													</div>
+													<div class="review-item__column">
+														<h3 class="review-item__name">
+															hershy jankovits
+															<span class="review-item__check --icon-check" aria-hidden="true"></span>
+														</h3>
+														<div class="review-item__date">
+															20 days ago on
+															<img src="./assets/img/image%20google.png" alt="" aria-hidden="true">
+														</div>
+													</div>
+												</div>
+												<div data-fls-rating="set" data-fls-rating-value="5" class="review-item__rating rating"></div>
+												<div data-fls-showmore="size" class="review-item__block block">
+													<div data-fls-showmore-content="87" class="block__content">
+														<p>
+															Great experience working with Joy Aviation Supply. Their team was professional, responsive, and very knowledgeable about aviation parts and sourcing. They helped us find exactly what we needed quickly and kept communication clear throughout the process. Fast service, reliable support, and a smooth overall experience. Highly recommend for anyone looking for dependable aviation supply solutions.
+														</p>
+													</div>
+													<button hidden data-fls-showmore-button="" type="button" class="block__more">
+														<span>Read more</span>
+														<span>Hide</span>
+													</button>
+												</div>
+											</div>
+										</article>
+									</div>
+									<!-- Якщо потрібна пагінація -->
+									<div class="reviews__swiper-pagination swiper-pagination"></div>
+									<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+									<button type="button" class="reviews__button-prev swiper-button-prev --icon-arrow" aria-label="Button left"></button>
+									<button type="button" class="reviews__button-next swiper-button-next --icon-arrow" aria-label="Button right"></button>
+								</div>
+							</div>
+							<div class="reviews__bottom">
+								<span class="--icon-cables"></span>
+								<p class="reviews__text">Free Google Reviews Widget</p>
+							</div>
+						</div>
+					</div>
+					<section class="index__quote quote-section">
+						<div class="quote-section__container">
+							<div data-fls-blockhead="" class="quote-section__block-head block-head">
+								<span class="block-head__lable --icon-m-telegram">Contact us</span>
+								<h2 data-fls-title="" class="block-head__title title">
+									<span class="title__top">
+										Get a
+										<span>Quote</span>
+									</span>
+								</h2>
+							</div>
+							<div class="quote-section__body">
+								<div data-fls-map="" class="quote-section__map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.4117635918933!2d-74.3814656894609!3d39.9545456835227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c1733924473415%3A0xa5aaa0662ee5f6e!2sJoy%20Aviation%20Supply!5e0!3m2!1sru!2sua!4v1784308284862!5m2!1sru!2sua" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Map with the location of the company office"></iframe>
+									<ul data-fls-sociallist="" class="quote-section__social-list social-list social-list--border">
+										<li class="social-list__social-element">
+											<a href="#" class="social-list__link --icon-s-facebook" aria-label="facebook"></a>
+										</li>
+										<li class="social-list__social-element">
+											<a href="#" class="social-list__link --icon-s-x" aria-label="social X"></a>
+										</li>
+										<li class="social-list__social-element">
+											<a href="#" class="social-list__link --icon-s-linkedin" aria-label="linkedIn"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="quote-section__column">
+									<form data-fls-form="ajax" class="quote-section__form form" data-fls-form-popup="popup" method="POST" action="/sendmail">
+										<div class="form__list">
+											<!-- First Name -->
+											<div class="form__line form__line--name">
+												<label for="name" class="form__label">
+													First Name
+													<span>*</span>
+												</label>
+												<input data-fls-input="" data-fls-form-validatenow="" required autocomplete="off" type="text" id="name" name="form[name]" data-fls-form-errtext="Enter your name" placeholder="" class="form__input input">
+											</div>
+											<!-- E-mail -->
+											<div class="form__line form__line--mail">
+												<label for="email" class="form__label">
+													Email Address
+													<span>*</span>
+												</label>
+												<input required type="email" id="email" name="form[email]" data-fls-form-errtext="Enter your email" placeholder="" class="form__input input">
+											</div>
+											<!-- Phone -->
+											<div class="form__line form__line--phone">
+												<label for="phone" class="form__label">
+													Phone Number
+													<span>*</span>
+												</label>
+												<input required data-fls-input="" data-fls-input-mask="+38(999) 999-9999" autocomplete="off" type="text" id="phone" name="form[phone]" data-fls-form-errtext="Enter your phone" placeholder="" class="form__input input">
+											</div>
+											<!-- Message -->
+											<div class="form__line form__line--message">
+												<label for="message" class="form__label">Message</label>
+												<span>0/180</span>
+												<textarea data-fls-input="" data-fls-input-autoheight="" autocomplete="off" id="message" name="form[message]" placeholder="" data-fls-form-errtext="Error" class="form__input input"></textarea>
+											</div>
+											<!-- Attachment -->
+											<div class="form__line form__line--attachment">
+												<label class="form__label" for="attachment">Attachment</label>
+												<div class="form__upload upload">
+													<input class="upload__input" type="file" id="attachment" name="form[attachment]" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+													<label class="upload__label" for="attachment">
+														<span class="upload__icon --icon-download"></span>
+														<span class="upload__text">
+															Drag and Drop or
+															<span class="upload__link">Choose Files</span>
+														</span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<button type="submit" class="form__button button">SEND MESSAGE</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+			<section data-fls-looking="" class="looking">
+				<div class="looking__inner">
+					<div class="looking__content">
+						<h2 class="looking__title">Looking for Specific Parts?</h2>
+						<div class="looking__text">
+							<p>
+								With over 100,000 quality parts in stock and ready to ship, we’re equipped to meet your needs quickly and efficiently. Get in touch with our team for immediate assistance.
+							</p>
+						</div>
+					</div>
+					<button data-fls-button="" class="looking__button button button--white">Contact Our Team</button>
+				</div>
+				<div class="looking__decor">
+					<picture>
+						<img alt="Image" src="./assets/img/decor-looking.webp" srcset="./assets/img/decor-looking.webp 1x,./assets/img/decor-looking-2x.webp 2x,./assets/img/decor-looking-3x.webp 3x">
+					</picture>
+				</div>
+			</section>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__content content-footer">
+						<div class="content-footer__text">
+							<p>
+								TurbineServices.Experts, Inc. was founded and is run by a combination of well experienced and knowledgeable former GE
+							</p>
+						</div>
+						<div class="content-footer__social">
+							<ul data-fls-dynamic=".footer__container,390,last" data-fls-sociallist="" class="content-footer__social-list social-list">
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-facebook" aria-label="facebook"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-x" aria-label="social X"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-linkedin" aria-label="linkedIn"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__list list-footer">
+						<h3 class="list-footer__title">
+							Useful
+							<span>links</span>
+						</h3>
+						<nav class="list-footer__body">
+							<ul class="list-footer__elements">
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">Home</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">About Us</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">Products</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">Contact Us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__list list-footer">
+						<h3 class="list-footer__title">
+							Languages
+							<span>Spoken</span>
+						</h3>
+						<div class="list-footer__body">
+							<ul class="list-footer__elements">
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag English" src="./assets/img/language-uk.webp" srcset="./assets/img/language-uk.webp 1x,./assets/img/language-uk-2x.webp 2x,./assets/img/language-uk-3x.webp 3x">
+										</picture>
+										English
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Spanish" src="./assets/img/language-spain.webp" srcset="./assets/img/language-spain.webp 1x,./assets/img/language-spain-2x.webp 2x,./assets/img/language-spain-3x.webp 3x">
+										</picture>
+										Spanish
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Portuguese" src="./assets/img/language-portu.webp" srcset="./assets/img/language-portu.webp 1x,./assets/img/language-portu-2x.webp 2x,./assets/img/language-portu-3x.webp 3x">
+										</picture>
+										Portuguese
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Dutch" src="./assets/img/language-nl.webp" srcset="./assets/img/language-nl.webp 1x,./assets/img/language-nl-2x.webp 2x,./assets/img/language-nl-3x.webp 3x">
+										</picture>
+										Dutch
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Israel" src="./assets/img/language-israel.webp" srcset="./assets/img/language-israel.webp 1x,./assets/img/language-israel-2x.webp 2x,./assets/img/language-israel-3x.webp 3x">
+										</picture>
+										Israel
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__list list-footer list-footer--contact">
+						<h3 class="list-footer__title">
+							Get In
+							<span>Touch</span>
+						</h3>
+						<div class="list-footer__body">
+							<ul class="list-footer__elements">
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link --icon-location">Laugavegur 13 Reykjavik Höfuðborgarsvæði 101 Iceland</a>
+								</li>
+								<li data-fls-contactitem="" class="list-footer__element contact-item">
+									<a href="tel:+3545395258" class="list-footer__link">
+										<span class="--icon-phone"></span>
+										+354 539 5258
+									</a>
+								</li>
+								<li data-fls-contactitem="" class="list-footer__element contact-item">
+									<a href="mailto:info@turbineservices.expert" class="list-footer__link">
+										<span class="--icon-email"></span>
+										info@turbineservices.expert
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<span class="list-footer__subtitle">Office Hours</span>
+									<div class="list-footer__value --icon-clock">
+										<time class="list-footer__time" datetime="08:00">8 a.m.</time>
+										to
+										<time class="list-footer__time" datetime="17:30">5 p.m.</time>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__container">
+						<ul class="bottom-footer__info-elements">
+							<li class="bottom-footer__info-element">
+								<p>Copyright © 2026 Turbineservices expert</p>
+							</li>
+							<li class="bottom-footer__info-element">
+								<p>All Rights Reserved.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/SFProDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<!-- <link rel="shortcut icon" href="@img/favicon.ico"> -->
+		<title>Products Page</title>
+		<script type="module" crossorigin="" src="./js/main.js?v=1786616266637"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1786616266637">
+		<link rel="stylesheet" crossorigin="" href="./css/products.css?v=1786616266637">
+		<link rel="stylesheet" crossorigin="" href="./css/heroblock.css?v=1786616266637">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="400" class="header">
+				<div class="header__top top-header">
+					<div class="top-header__container">
+						<div class="top-header__left">
+							<ul data-fls-sociallist="" class="top-header__social social-list">
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-facebook" aria-label="facebook"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-x" aria-label="social X"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-linkedin" aria-label="linkedIn"></a>
+								</li>
+							</ul>
+							<div data-fls-contactitem="" class="contact-item">
+								<a href="mailto:info@turbineservices.expert" class="contact-item__link">
+									<span class="--icon-email"></span>
+									info@turbineservices.expert
+								</a>
+							</div>
+						</div>
+						<div class="top-header__column">
+							<div data-fls-contactitem="" class="top-header__phone contact-item">
+								<a href="tel:+3545395258" class="contact-item__link">
+									<span class="--icon-phone"></span>
+									+354 539 5258
+								</a>
+							</div>
+							<form data-fls-searchheader="" action="#" class="top-header__search search-header">
+								<button type="button" class="search-header__open" aria-label="Open search">
+									<span class="--icon-search" aria-hidden="true"></span>
+									<span class="--icon-close" aria-hidden="true"></span>
+								</button>
+								<div class="search-header__body">
+									<input minlength="3" required autocomplete="off" type="text" name="form[data]" data-error="Ошибка" placeholder="Поиск" class="search-header__input input">
+									<button class="search-header__button --icon-search" type="submit"></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="header__main main-header">
+					<div class="main-header__container">
+						<a href="index.html" class="main-header__logo" aria-label="logo">
+							<img data-fls-image-ignore="" src="./assets/img/logo_turbine.png" alt="Логотип">
+						</a>
+						<div class="main-header__menu menu">
+							<!-- <button type="button" data-fls-menu class="menu__icon icon-menu"><span></span></button> -->
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="index.html" class="menu__link">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="services.html" class="menu__link">Services</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">About</a>
+									</li>
+									<li class="menu__item">
+										<a href="products.html" class="menu__link menu__link--active">Products</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Careers</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Contact</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Blogs</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<button data-fls-button="" class="main-header__button button">Get A Quote</button>
+						<button type="button" data-fls-menu="" class="main-header__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-products="" class="products">
+					<section data-fls-heroblock="" class="products__hero-block hero-block">
+						<div class="hero-block__container">
+							<div class="hero-block__content">
+								<h1 data-fls-title="" class="hero-block__title title title--big">Products</h1>
+								<div class="hero-block__text">Quality gas turbine Parts</div>
+							</div>
+						</div>
+						<div class="hero-block__image">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/hero-brands-600.webp 1x,./assets/img/hero-brands-600-2x.webp 2x,./assets/img/hero-brands-600-3x.webp 3x" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/hero-brands-1200.webp 1x,./assets/img/hero-brands-1200-2x.webp 2x,./assets/img/hero-brands-1200-3x.webp 3x" type="image/webp">
+								<img alt="Hero image" src="./assets/img/hero-brands.webp" srcset="./assets/img/hero-brands.webp 1x,./assets/img/hero-brands-2x.webp 2x,./assets/img/hero-brands-3x.webp 3x">
+							</picture>
+						</div>
+					</section>
+					<section class="products__brands-section brands-section">
+						<div class="brands-section__container">
+							<h2 class="brands-section__title">Brands</h2>
+							<div class="brands-section__content">
+								<div data-fls-brandelement="" class="brands-section__item brand-element">
+									<div class="brand-element__plate">
+										<figure class="brand-element__image">
+											<picture>
+												<img alt="Image" src="./assets/img/brand-image.webp" srcset="./assets/img/brand-image.webp 1x,./assets/img/brand-image-2x.webp 2x,./assets/img/brand-image-3x.webp 3x">
+											</picture>
+										</figure>
+									</div>
+									<a href="#" class="brand-element__link">See products</a>
+								</div>
+								<div data-fls-brandelement="" class="brands-section__item brand-element">
+									<div class="brand-element__plate">
+										<figure class="brand-element__image">
+											<picture>
+												<img alt="Image" src="./assets/img/brand-image.webp" srcset="./assets/img/brand-image.webp 1x,./assets/img/brand-image-2x.webp 2x,./assets/img/brand-image-3x.webp 3x">
+											</picture>
+										</figure>
+									</div>
+									<a href="#" class="brand-element__link">See products</a>
+								</div>
+								<div data-fls-brandelement="" class="brands-section__item brand-element">
+									<div class="brand-element__plate">
+										<figure class="brand-element__image">
+											<picture>
+												<img alt="Image" src="./assets/img/brand-image.webp" srcset="./assets/img/brand-image.webp 1x,./assets/img/brand-image-2x.webp 2x,./assets/img/brand-image-3x.webp 3x">
+											</picture>
+										</figure>
+									</div>
+									<a href="#" class="brand-element__link">See products</a>
+								</div>
+								<div data-fls-brandelement="" class="brands-section__item brand-element">
+									<div class="brand-element__plate">
+										<figure class="brand-element__image">
+											<picture>
+												<img alt="Image" src="./assets/img/brand-image.webp" srcset="./assets/img/brand-image.webp 1x,./assets/img/brand-image-2x.webp 2x,./assets/img/brand-image-3x.webp 3x">
+											</picture>
+										</figure>
+									</div>
+									<a href="#" class="brand-element__link">See products</a>
+								</div>
+								<div data-fls-brandelement="" class="brands-section__item brand-element">
+									<div class="brand-element__plate">
+										<figure class="brand-element__image">
+											<picture>
+												<img alt="Image" src="./assets/img/brand-image.webp" srcset="./assets/img/brand-image.webp 1x,./assets/img/brand-image-2x.webp 2x,./assets/img/brand-image-3x.webp 3x">
+											</picture>
+										</figure>
+									</div>
+									<a href="#" class="brand-element__link">See products</a>
+								</div>
+								<div data-fls-brandelement="" class="brands-section__item brand-element">
+									<div class="brand-element__plate">
+										<figure class="brand-element__image">
+											<picture>
+												<img alt="Image" src="./assets/img/brand-image.webp" srcset="./assets/img/brand-image.webp 1x,./assets/img/brand-image-2x.webp 2x,./assets/img/brand-image-3x.webp 3x">
+											</picture>
+										</figure>
+									</div>
+									<a href="#" class="brand-element__link">See products</a>
+								</div>
+								<div data-fls-brandelement="" class="brands-section__item brand-element">
+									<div class="brand-element__plate">
+										<figure class="brand-element__image">
+											<picture>
+												<img alt="Image" src="./assets/img/brand-image.webp" srcset="./assets/img/brand-image.webp 1x,./assets/img/brand-image-2x.webp 2x,./assets/img/brand-image-3x.webp 3x">
+											</picture>
+										</figure>
+									</div>
+									<a href="#" class="brand-element__link">See products</a>
+								</div>
+								<div data-fls-brandelement="" class="brands-section__item brand-element">
+									<div class="brand-element__plate">
+										<figure class="brand-element__image">
+											<picture>
+												<img alt="Image" src="./assets/img/brand-image.webp" srcset="./assets/img/brand-image.webp 1x,./assets/img/brand-image-2x.webp 2x,./assets/img/brand-image-3x.webp 3x">
+											</picture>
+										</figure>
+									</div>
+									<a href="#" class="brand-element__link">See products</a>
+								</div>
+								<div data-fls-brandelement="" class="brands-section__item brand-element">
+									<div class="brand-element__plate">
+										<figure class="brand-element__image">
+											<picture>
+												<img alt="Image" src="./assets/img/brand-image.webp" srcset="./assets/img/brand-image.webp 1x,./assets/img/brand-image-2x.webp 2x,./assets/img/brand-image-3x.webp 3x">
+											</picture>
+										</figure>
+									</div>
+									<a href="#" class="brand-element__link">See products</a>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+			<section data-fls-looking="" class="looking">
+				<div class="looking__inner">
+					<div class="looking__content">
+						<h2 class="looking__title">Looking for Specific Parts?</h2>
+						<div class="looking__text">
+							<p>
+								With over 100,000 quality parts in stock and ready to ship, we’re equipped to meet your needs quickly and efficiently. Get in touch with our team for immediate assistance.
+							</p>
+						</div>
+					</div>
+					<button data-fls-button="" class="looking__button button button--white">Contact Our Team</button>
+				</div>
+				<div class="looking__decor">
+					<picture>
+						<img alt="Image" src="./assets/img/decor-looking.webp" srcset="./assets/img/decor-looking.webp 1x,./assets/img/decor-looking-2x.webp 2x,./assets/img/decor-looking-3x.webp 3x">
+					</picture>
+				</div>
+			</section>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__content content-footer">
+						<div class="content-footer__text">
+							<p>
+								TurbineServices.Experts, Inc. was founded and is run by a combination of well experienced and knowledgeable former GE
+							</p>
+						</div>
+						<div class="content-footer__social">
+							<ul data-fls-dynamic=".footer__container,390,last" data-fls-sociallist="" class="content-footer__social-list social-list">
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-facebook" aria-label="facebook"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-x" aria-label="social X"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-linkedin" aria-label="linkedIn"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__list list-footer">
+						<h3 class="list-footer__title">
+							Useful
+							<span>links</span>
+						</h3>
+						<nav class="list-footer__body">
+							<ul class="list-footer__elements">
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">Home</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">About Us</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">Products</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">Contact Us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__list list-footer">
+						<h3 class="list-footer__title">
+							Languages
+							<span>Spoken</span>
+						</h3>
+						<div class="list-footer__body">
+							<ul class="list-footer__elements">
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag English" src="./assets/img/language-uk.webp" srcset="./assets/img/language-uk.webp 1x,./assets/img/language-uk-2x.webp 2x,./assets/img/language-uk-3x.webp 3x">
+										</picture>
+										English
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Spanish" src="./assets/img/language-spain.webp" srcset="./assets/img/language-spain.webp 1x,./assets/img/language-spain-2x.webp 2x,./assets/img/language-spain-3x.webp 3x">
+										</picture>
+										Spanish
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Portuguese" src="./assets/img/language-portu.webp" srcset="./assets/img/language-portu.webp 1x,./assets/img/language-portu-2x.webp 2x,./assets/img/language-portu-3x.webp 3x">
+										</picture>
+										Portuguese
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Dutch" src="./assets/img/language-nl.webp" srcset="./assets/img/language-nl.webp 1x,./assets/img/language-nl-2x.webp 2x,./assets/img/language-nl-3x.webp 3x">
+										</picture>
+										Dutch
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Israel" src="./assets/img/language-israel.webp" srcset="./assets/img/language-israel.webp 1x,./assets/img/language-israel-2x.webp 2x,./assets/img/language-israel-3x.webp 3x">
+										</picture>
+										Israel
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__list list-footer list-footer--contact">
+						<h3 class="list-footer__title">
+							Get In
+							<span>Touch</span>
+						</h3>
+						<div class="list-footer__body">
+							<ul class="list-footer__elements">
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link --icon-location">Laugavegur 13 Reykjavik Höfuðborgarsvæði 101 Iceland</a>
+								</li>
+								<li data-fls-contactitem="" class="list-footer__element contact-item">
+									<a href="tel:+3545395258" class="list-footer__link">
+										<span class="--icon-phone"></span>
+										+354 539 5258
+									</a>
+								</li>
+								<li data-fls-contactitem="" class="list-footer__element contact-item">
+									<a href="mailto:info@turbineservices.expert" class="list-footer__link">
+										<span class="--icon-email"></span>
+										info@turbineservices.expert
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<span class="list-footer__subtitle">Office Hours</span>
+									<div class="list-footer__value --icon-clock">
+										<time class="list-footer__time" datetime="08:00">8 a.m.</time>
+										to
+										<time class="list-footer__time" datetime="17:30">5 p.m.</time>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__container">
+						<ul class="bottom-footer__info-elements">
+							<li class="bottom-footer__info-element">
+								<p>Copyright © 2026 Turbineservices expert</p>
+							</li>
+							<li class="bottom-footer__info-element">
+								<p>All Rights Reserved.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/SFProDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<!-- <link rel="shortcut icon" href="@img/favicon.ico"> -->
+		<title>Services Page</title>
+		<script type="module" crossorigin="" src="./js/main.js?v=1786616266638"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.css?v=1786616266638">
+		<link rel="stylesheet" crossorigin="" href="./css/services.css?v=1786616266638">
+		<link rel="stylesheet" crossorigin="" href="./css/heroblock.css?v=1786616266638">
+		<link rel="stylesheet" crossorigin="" href="./css/differencecard.css?v=1786616266638">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="400" class="header">
+				<div class="header__top top-header">
+					<div class="top-header__container">
+						<div class="top-header__left">
+							<ul data-fls-sociallist="" class="top-header__social social-list">
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-facebook" aria-label="facebook"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-x" aria-label="social X"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-linkedin" aria-label="linkedIn"></a>
+								</li>
+							</ul>
+							<div data-fls-contactitem="" class="contact-item">
+								<a href="mailto:info@turbineservices.expert" class="contact-item__link">
+									<span class="--icon-email"></span>
+									info@turbineservices.expert
+								</a>
+							</div>
+						</div>
+						<div class="top-header__column">
+							<div data-fls-contactitem="" class="top-header__phone contact-item">
+								<a href="tel:+3545395258" class="contact-item__link">
+									<span class="--icon-phone"></span>
+									+354 539 5258
+								</a>
+							</div>
+							<form data-fls-searchheader="" action="#" class="top-header__search search-header">
+								<button type="button" class="search-header__open" aria-label="Open search">
+									<span class="--icon-search" aria-hidden="true"></span>
+									<span class="--icon-close" aria-hidden="true"></span>
+								</button>
+								<div class="search-header__body">
+									<input minlength="3" required autocomplete="off" type="text" name="form[data]" data-error="Ошибка" placeholder="Поиск" class="search-header__input input">
+									<button class="search-header__button --icon-search" type="submit"></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="header__main main-header">
+					<div class="main-header__container">
+						<a href="index.html" class="main-header__logo" aria-label="logo">
+							<img data-fls-image-ignore="" src="./assets/img/logo_turbine.png" alt="Логотип">
+						</a>
+						<div class="main-header__menu menu">
+							<!-- <button type="button" data-fls-menu class="menu__icon icon-menu"><span></span></button> -->
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="index.html" class="menu__link">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="services.html" class="menu__link menu__link--active">Services</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">About</a>
+									</li>
+									<li class="menu__item">
+										<a href="products.html" class="menu__link">Products</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Careers</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Contact</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Blogs</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<button data-fls-button="" class="main-header__button button">Get A Quote</button>
+						<button type="button" data-fls-menu="" class="main-header__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div data-fls-services="" class="services">
+					<section data-fls-heroblock="" class="services__hero-block hero-block">
+						<div class="hero-block__container">
+							<div class="hero-block__content">
+								<h1 data-fls-title="" class="hero-block__title title title--big">Gas turbine services</h1>
+							</div>
+						</div>
+						<div class="hero-block__image">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/hero-services-600.webp 1x,./assets/img/hero-services-600-2x.webp 2x,./assets/img/hero-services-600-3x.webp 3x" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/hero-services-1200.webp 1x,./assets/img/hero-services-1200-2x.webp 2x,./assets/img/hero-services-1200-3x.webp 3x" type="image/webp">
+								<img alt="Hero image" src="./assets/img/hero-services.webp" srcset="./assets/img/hero-services.webp 1x,./assets/img/hero-services-2x.webp 2x,./assets/img/hero-services-3x.webp 3x">
+							</picture>
+						</div>
+					</section>
+					<section class="services__using using">
+						<div class="using__container">
+							<div data-fls-blockroof="" class="using__block-roof block-roof">
+								<h2 data-fls-title="" class="block-roof__title title title--black">
+									You take care of using the turbine and we'll take care of the rest.
+									<span class="title--black__decor"></span>
+								</h2>
+								<p class="block-roof__text">
+									We'll take care of your inventory, kits, and parts to ensure your turbines are always ready for operation. You'll receive:
+								</p>
+							</div>
+							<ul class="using__elements">
+								<li data-fls-differencecard="" class="using__element difference-card">
+									<div class="difference-card__body">
+										<span class="difference-card__icon --icon-minimize"></span>
+										<div class="difference-card__text">
+											<p>
+												Minimize ground time with faster repairs and maintenance with aircraft parts ready for you
+											</p>
+										</div>
+									</div>
+								</li>
+								<li data-fls-differencecard="" class="using__element difference-card">
+									<div class="difference-card__body">
+										<span class="difference-card__icon --icon-parts"></span>
+										<div class="difference-card__text">
+											<p>
+												Restock quickly and easily with our extensive inventory of supplies and ready-to-use kits.
+											</p>
+										</div>
+									</div>
+								</li>
+								<li data-fls-differencecard="" class="using__element difference-card">
+									<div class="difference-card__body">
+										<span class="difference-card__icon --icon-profit"></span>
+										<div class="difference-card__text">
+											<p>
+												Profit from overstock and unwanted inventory with economical consignment agreements.
+											</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="services__concierge concierge">
+						<div class="concierge__container">
+							<div data-fls-blockroof="" class="concierge__block-roof block-roof">
+								<h2 data-fls-title="" class="block-roof__title title title--black">
+									Concierge service for every turbine
+									<span class="title--black__decor"></span>
+								</h2>
+								<p class="block-roof__text">Get new parts as soon as you need them, and sell them as soon as you don’t.</p>
+							</div>
+							<div class="concierge__elements">
+								<article data-fls-servicecart="" class="concierge__element service-cart">
+									<div class="service-cart__inner">
+										<figure class="service-cart__image">
+											<picture>
+												<img alt="Image 01" src="./assets/img/concierge-image-01.webp" srcset="./assets/img/concierge-image-01.webp 1x,./assets/img/concierge-image-01-2x.webp 2x,./assets/img/concierge-image-01-3x.webp 3x">
+											</picture>
+										</figure>
+										<div class="service-cart__content">
+											<h3 class="service-cart__title">Field Services</h3>
+											<div class="service-cart__text">
+												<p>
+													With over 100,000 parts in stock, we have everything your aircraft requires. Our inventory includes hardware, electrical components, engine parts, pilot supplies, tools, instruments, airframe parts, and more.
+												</p>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article data-fls-servicecart="" class="concierge__element service-cart">
+									<div class="service-cart__inner">
+										<figure class="service-cart__image">
+											<picture>
+												<img alt="Image woman" src="./assets/img/concierge-image-02.webp" srcset="./assets/img/concierge-image-02.webp 1x,./assets/img/concierge-image-02-2x.webp 2x,./assets/img/concierge-image-02-3x.webp 3x">
+											</picture>
+										</figure>
+										<div class="service-cart__content">
+											<h3 class="service-cart__title">Core Engine Overhaul</h3>
+											<div class="service-cart__text">
+												<p>
+													We’ll create custom kits for you with everything that each aircraft needs, regardless of the size of your fleet. Each kit or refill comes clearly labeled with the specific aircraft it is tailored for, enabling the smooth upkeep of your aircraft.
+												</p>
+											</div>
+										</div>
+									</div>
+								</article>
+								<article data-fls-servicecart="" class="concierge__element service-cart">
+									<div class="service-cart__inner">
+										<figure class="service-cart__image">
+											<picture>
+												<img alt="Image woman" src="./assets/img/concierge-image-03.webp" srcset="./assets/img/concierge-image-03.webp 1x,./assets/img/concierge-image-03-2x.webp 2x,./assets/img/concierge-image-03-3x.webp 3x">
+											</picture>
+										</figure>
+										<div class="service-cart__content">
+											<h3 class="service-cart__title">Major Equipment and Spare Parts</h3>
+											<div class="service-cart__text">
+												<p>
+													Scheduled maintenance doesn’t have to keep aircraft down for long. We monitor your aircraft’s flight miles and maintenance requirements, so we can prepare all the parts they need in advance for quick and seamless maintenance.
+												</p>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+			<section data-fls-looking="" class="looking">
+				<div class="looking__inner">
+					<div class="looking__content">
+						<h2 class="looking__title">Looking for Specific Parts?</h2>
+						<div class="looking__text">
+							<p>
+								With over 100,000 quality parts in stock and ready to ship, we’re equipped to meet your needs quickly and efficiently. Get in touch with our team for immediate assistance.
+							</p>
+						</div>
+					</div>
+					<button data-fls-button="" class="looking__button button button--white">Contact Our Team</button>
+				</div>
+				<div class="looking__decor">
+					<picture>
+						<img alt="Image" src="./assets/img/decor-looking.webp" srcset="./assets/img/decor-looking.webp 1x,./assets/img/decor-looking-2x.webp 2x,./assets/img/decor-looking-3x.webp 3x">
+					</picture>
+				</div>
+			</section>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__content content-footer">
+						<div class="content-footer__text">
+							<p>
+								TurbineServices.Experts, Inc. was founded and is run by a combination of well experienced and knowledgeable former GE
+							</p>
+						</div>
+						<div class="content-footer__social">
+							<ul data-fls-dynamic=".footer__container,390,last" data-fls-sociallist="" class="content-footer__social-list social-list">
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-facebook" aria-label="facebook"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-x" aria-label="social X"></a>
+								</li>
+								<li class="social-list__social-element">
+									<a href="#" class="social-list__link --icon-s-linkedin" aria-label="linkedIn"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__list list-footer">
+						<h3 class="list-footer__title">
+							Useful
+							<span>links</span>
+						</h3>
+						<nav class="list-footer__body">
+							<ul class="list-footer__elements">
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">Home</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">About Us</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">Products</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">Contact Us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__list list-footer">
+						<h3 class="list-footer__title">
+							Languages
+							<span>Spoken</span>
+						</h3>
+						<div class="list-footer__body">
+							<ul class="list-footer__elements">
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag English" src="./assets/img/language-uk.webp" srcset="./assets/img/language-uk.webp 1x,./assets/img/language-uk-2x.webp 2x,./assets/img/language-uk-3x.webp 3x">
+										</picture>
+										English
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Spanish" src="./assets/img/language-spain.webp" srcset="./assets/img/language-spain.webp 1x,./assets/img/language-spain-2x.webp 2x,./assets/img/language-spain-3x.webp 3x">
+										</picture>
+										Spanish
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Portuguese" src="./assets/img/language-portu.webp" srcset="./assets/img/language-portu.webp 1x,./assets/img/language-portu-2x.webp 2x,./assets/img/language-portu-3x.webp 3x">
+										</picture>
+										Portuguese
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Dutch" src="./assets/img/language-nl.webp" srcset="./assets/img/language-nl.webp 1x,./assets/img/language-nl-2x.webp 2x,./assets/img/language-nl-3x.webp 3x">
+										</picture>
+										Dutch
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link">
+										<picture>
+											<img alt="Flag Israel" src="./assets/img/language-israel.webp" srcset="./assets/img/language-israel.webp 1x,./assets/img/language-israel-2x.webp 2x,./assets/img/language-israel-3x.webp 3x">
+										</picture>
+										Israel
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__list list-footer list-footer--contact">
+						<h3 class="list-footer__title">
+							Get In
+							<span>Touch</span>
+						</h3>
+						<div class="list-footer__body">
+							<ul class="list-footer__elements">
+								<li class="list-footer__element">
+									<a href="#" class="list-footer__link --icon-location">Laugavegur 13 Reykjavik Höfuðborgarsvæði 101 Iceland</a>
+								</li>
+								<li data-fls-contactitem="" class="list-footer__element contact-item">
+									<a href="tel:+3545395258" class="list-footer__link">
+										<span class="--icon-phone"></span>
+										+354 539 5258
+									</a>
+								</li>
+								<li data-fls-contactitem="" class="list-footer__element contact-item">
+									<a href="mailto:info@turbineservices.expert" class="list-footer__link">
+										<span class="--icon-email"></span>
+										info@turbineservices.expert
+									</a>
+								</li>
+								<li class="list-footer__element">
+									<span class="list-footer__subtitle">Office Hours</span>
+									<div class="list-footer__value --icon-clock">
+										<time class="list-footer__time" datetime="08:00">8 a.m.</time>
+										to
+										<time class="list-footer__time" datetime="17:30">5 p.m.</time>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__container">
+						<ul class="bottom-footer__info-elements">
+							<li class="bottom-footer__info-element">
+								<p>Copyright © 2026 Turbineservices expert</p>
+							</li>
+							<li class="bottom-footer__info-element">
+								<p>All Rights Reserved.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
