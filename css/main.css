@@ -363,7 +363,7 @@ body {
 .main-header__container {
   display: grid;
   align-items: center;
-  grid-template-columns: 22.5rem 1fr auto;
+  grid-template-columns: auto 1fr auto;
 }
 .main-header__menu {
   justify-self: flex-end;
@@ -371,9 +371,10 @@ body {
 .main-header__logo {
   overflow: hidden;
   z-index: 5;
+  max-width: 22.5rem;
 }
 .main-header__logo img {
-  width: 22.5rem;
+  max-width: 22.5rem;
 }
 .main-header__button {
   z-index: 5;
