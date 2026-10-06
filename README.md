@@ -4,6 +4,12 @@ A responsive multi-page site: home, services, product catalog, and cart. Built f
 
 🔗 **Demo:** https://zhuridochka.github.io/TurbineServices-demo/cart.html#
 
+## Screenshots
+
+| Desktop | Mobile |
+|---|---|
+| ![Desktop](./previews/Screenshot_150044_desktop.jpg) | ![Mobile](./previews/Screenshot_150143_mobile.jpg) |
+
 ## Pages
 - `index.html` — home
 - `services.html` — services
